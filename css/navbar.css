@@ -38,3 +38,9 @@ nav .menu-itens .menu-button {
 
     cursor: pointer;
 }
+
+@media screen and (width < 768px) {
+    nav {
+        padding: 0 10px;
+    }
+}
