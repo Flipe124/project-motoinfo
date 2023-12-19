@@ -25,11 +25,17 @@ nav .logo i {
 
 nav .menu-itens {
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+nav .menu-itens .menu-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
 }
 
 nav .menu-itens .menu-button {
-    /* display: none; */
+    display: none;
     border: none;
     background: none;
     border-top: 3px solid #fff;
@@ -48,10 +54,7 @@ nav .menu-itens .menu-button::after, .menu-button::before {
     transition: 0.3s;
 }
 
-nav .menu-itens .menu-list {
-    display: flex;
-    list-style: none;
-}
+
 
 @media screen and (width < 768px) {
     nav {
@@ -95,6 +98,26 @@ nav .menu-itens .menu-list {
 
     nav .menu-itens .menu-list li:nth-child(3) a {
         transition: 0.5s 0.6s;
+    }
+
+    nav.active .menu-itens .menu-list li a {
+        opacity: 1;
+    }
+
+    nav.active .menu-itens .menu-button {
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+
+    nav.active .menu-itens .menu-button::before {
+        transform: rotate(135deg);
+    }
+
+    nav.active .menu-itens .menu-button::after {
+        transform: rotate(-135deg);
+        top: -7px;
     }
 
 }
