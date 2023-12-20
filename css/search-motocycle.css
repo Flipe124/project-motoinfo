@@ -1,7 +1,8 @@
 main .box-search-motocycle {
     width: 100%;
     border-radius: 12px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255, 1);
+    backdrop-filter: blur(10px);
     padding: 5px 20px;
 
 
@@ -13,14 +14,27 @@ main .box-search-motocycle {
 main .box-search-motocycle h1 {
     text-align: center;
     padding: 20px 0;
-    color: #414852;
+    color: #292929;
+}
+
+main .box-search-motocycle .search-motocycle {
+    padding-top: 30px;
 }
 
 main .box-search-motocycle #search-motocycle-input {
     width: 95%;
     height: 40px;
+    padding: 5px;
+    font-size: 18px;
 
     border-radius: 6px;
+    border: none;
+    background-color: #F0F0F0;
+    
+}
+
+main .box-search-motocycle #search-motocycle-input:focus {
+    outline: none;
 }
 
 main .box-search-motocycle #search-motocycle-button {
