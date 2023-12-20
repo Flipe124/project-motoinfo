@@ -1,0 +1,34 @@
+main .box-search-motocycle {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 5px 20px;
+
+
+    height: 800px;
+
+    transform: translateY(-100px);
+}
+
+main .box-search-motocycle h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #414852;
+}
+
+main .box-search-motocycle #search-motocycle-input {
+    width: 95%;
+    height: 40px;
+
+    border-radius: 6px;
+}
+
+main .box-search-motocycle #search-motocycle-button {
+    width: 4%;
+    height: 40px;
+
+    border-radius: 6px;
+    border: none;
+    background-color: #0066FF;
+    color: #fff;
+}
