@@ -4,7 +4,7 @@ nav {
 
     width: 100%;
     height: 65px;
-    background-color: #292929;
+    background-color: transparent;
 }
 
 nav .container {
@@ -34,6 +34,10 @@ nav .menu-itens .menu-list {
     list-style: none;
 }
 
+nav .menu-itens .menu-list li a {
+    font-family: fantasy;
+}
+
 nav .menu-itens .menu-button {
     display: none;
     border: none;
@@ -53,8 +57,6 @@ nav .menu-itens .menu-button::after, .menu-button::before {
     position: relative;
     transition: 0.3s;
 }
-
-
 
 @media screen and (width < 768px) {
     nav {
