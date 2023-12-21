@@ -7,9 +7,9 @@
 
 header {
     background-image: url("../img/moto-background.jpg");
-
     background-repeat: no-repeat;
     background-size: 100%;
+    
     height: 100vh;
 }
 
@@ -43,7 +43,6 @@ header .apresentation p {
     width: 300px;
 }
 
-
 main {
     background-color: #F0F0F0;
 }
@@ -53,16 +52,35 @@ a {
     color: #fff;
 }
 
+.banner img {
+    width: 100%;
+}
+
+/* Reut */
+
 .container {
     width: 80%;
     margin: auto;
 }
 
-.banner img {
+.select select {
+    height: 40px;
+    background-color: #F0F0F0;
+    color: #595959;
+    font-weight: 600;
+    border: none;
     width: 100%;
 }
 
+.d-block {
+    display: block;
+}
 
+.label-style-gray {
+    color: #595959;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
 
 @media screen and (width < 768px) {
     .container {
