@@ -1,17 +1,9 @@
-main .section-search-motocycle {
+.section-search-motocycle {
     width: 100%;
-    height: 800px;
-
-    border-radius: 12px;
-    background-color: rgb(255, 255, 255, 1);
-    backdrop-filter: blur(10px);
-
-    padding: 5px 20px;
-
-    transform: translateY(-100px);
+    background-color: rgb(255, 255, 255);
 }
 
-main .section-search-motocycle .search-motocycle {
+.section-search-motocycle .search-motocycle {
     display: flex;
     align-items: last baseline;
     justify-content: space-between;
@@ -19,11 +11,11 @@ main .section-search-motocycle .search-motocycle {
     padding-top: 15px;
 }
 
-main .section-search-motocycle .search-motocycle .div-search-motocycle-input {
+.section-search-motocycle .search-motocycle .div-search-motocycle-input {
     width: 65%;
 }
 
-main .section-search-motocycle .search-motocycle .div-search-motocycle-input #search-motocycle-input {
+.section-search-motocycle .search-motocycle .div-search-motocycle-input #search-motocycle-input {
     width: 100%;
     height: 40px;
     padding: 5px;
@@ -35,16 +27,16 @@ main .section-search-motocycle .search-motocycle .div-search-motocycle-input #se
     
 }
 
-main .section-search-motocycle .search-motocycle .div-search-motocycle-input #search-motocycle-input:focus {
+.section-search-motocycle .search-motocycle .div-search-motocycle-input #search-motocycle-input:focus {
     outline: none;
 }
 
-main .section-search-motocycle .search-motocycle .select {
+.section-search-motocycle .search-motocycle .select {
     width: 15%;
     padding: 0 5px;
 }
 
-main .section-search-motocycle #search-motocycle-button {
+.section-search-motocycle #search-motocycle-button {
     width: 40px;
     height: 40px;
 
