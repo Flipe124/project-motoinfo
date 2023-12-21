@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-    padding-top: 25px;
+    margin-top: 10px;
+    padding-top: 10px;
     border-top: 1px solid #F0F0F0;
 
     /* height: 900px; */
