@@ -44,7 +44,7 @@ header .apresentation p {
 }
 
 main {
-    background-color: #F0F0F0;
+    /* background-color: #F0F0F0; */
 }
 
 a {
@@ -61,6 +61,25 @@ a {
 .container {
     width: 80%;
     margin: auto;
+}
+
+.motoinfo-style {
+    background-color: #292929;
+    padding: 10px 0;
+
+    text-align: center;
+}
+
+.motoinfo-style span {
+    font-family: fantasy;
+    font-weight: 500;
+    color: #fff;
+    padding-right: 5px;
+}
+
+.motoinfo-style i {
+    color: #ff0000;
+    font-size: 14px;
 }
 
 .select select {
