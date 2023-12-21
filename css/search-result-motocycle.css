@@ -1,0 +1,64 @@
+.section-search-result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-top: 25px;
+    border-top: 1px solid #F0F0F0;
+
+    /* height: 900px; */
+}
+
+.result-card {
+    width: 240px;
+    height: 300px;
+    max-height: 300px;
+
+    margin-top: 20px;
+
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 0 50px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.result-card:hover {
+    box-shadow: 1px 0 50px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.result-card .moto-img {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+
+.result-card .moto-img img {
+    width: 100%;
+    padding: 10px;
+    background-color: #F0F0F0;
+    border-start-start-radius: 12px;
+    border-start-end-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.result-card .moto-img img:hover {
+    transform: scale(1.1);
+}
+
+.result-card .data {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.result-card .name {
+    color: #595959;
+    font-weight: 600;
+}
+
+.result-card .info {
+    padding-top: 10px;
+}
