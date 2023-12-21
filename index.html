@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/search-motocycle.css">
+    <link rel="stylesheet" href="./css/search-result-motocycle.css">
 
     <script defer src="https://kit.fontawesome.com/1abad94d22.js" crossorigin="anonymous"></script>
     <script defer src="./js/navbar.js"></script>
@@ -50,14 +51,89 @@
     </header>
     <main>
         <div class="container main-container">
-            <section class="box-search-motocycle">
-                <!-- <h1>Informações</h1> -->
+            <section class="section-search-motocycle">
+                <h1 class="motoinfo-style"><span>MOTOINFO</span><i class="fa-solid fa-circle"></i></h1>
                 <div class="search-motocycle">
-                    <input type="text" name="" id="search-motocycle-input" placeholder="Pesquise sua moto aqui">
+                    <div class="div-search-motocycle-input">
+                        <label for="" class="d-block label-style-gray">Moto:</label>
+                        <input type="text" name="" id="search-motocycle-input" placeholder="Pesquise sua moto aqui">
+                    </div>
+                    <div class="select">
+                        <label for="" class="d-block label-style-gray">Marca:</label>
+                        <select name="" id="">
+                            <option value="">Todas</option>
+                            <option value="">Honda</option>
+                        </select>
+                    </div>
+                    <div class="select">
+                        <label for="" class="d-block label-style-gray">Modelo:</label>
+                        <select name="" id="">
+                            <option value="">Todos</option>
+                            <option value="">CB 500x</option>
+                        </select>
+                    </div>
                     <button type="button" id="search-motocycle-button">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
+            </section>
+            <section class="section-search-result">
+                <div class="result-card">
+                    <div class="moto-img">
+                        <img src="./img/honda-xre-300-rally_0.png" alt="">
+                    </div>
+                    <div class="data">
+                        <span class="name">
+                            XRE-300
+                        </span>
+                        <p class="info">
+                            Honda Hornet 600cc
+                        </p>
+                        <p>ted</p>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="moto-img">
+                        <img src="./img/tenere-250.png" alt="">
+                    </div>
+                    <div class="data">
+                        <span class="name">
+                            Teneré 250 </span>
+                        <p class="info">
+                            Honda Hornet 600cc
+                        </p>
+                        <p>ted</p>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="moto-img">
+                        <img src="./img/tenere-250.png" alt="">
+                    </div>
+                    <div class="data">
+                        <span class="name">
+                            Teneré 250 </span>
+                        <p class="info">
+                            Honda Hornet 600cc
+                        </p>
+                        <p>ted</p>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <div class="moto-img">
+                        <img src="./img/tenere-250.png" alt="">
+                    </div>
+                    <div class="data">
+                        <span class="name">
+                            Teneré 250 </span>
+                        <p class="info">
+                            Honda Hornet 600cc
+                        </p>
+                        <p>ted</p>
+                    </div>
+                </div>
+                <!-- <div class="result-card">
+                </div>
+                <div class="result-card"> -->
             </section>
         </div>
     </main>
