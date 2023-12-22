@@ -1,0 +1,82 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 500px;
+    max-width: 100%;
+    padding: 10px;
+
+    border-radius: 12px;
+
+    background-color: #fff;
+}
+
+.modal .modal-content {
+    display: inline;
+    padding-top: 50px;
+}
+
+.modal .modal-content .modal-content-img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal .modal-content img {
+    width: 100%;
+}
+
+.modal .modal-content .motocycle-model {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #F0F0F0;
+    background-color: #292929;
+}
+
+.modal h1 {
+    color: #494949;
+    padding: 10px;
+    float: left;
+}
+
+.modal button {
+    font-size: 24px;
+    padding: 10px 15px;
+    color: #595959;
+
+    float: right;
+}
+
+.modal button:hover {
+    color: #000;
+}
+
+.modal .table {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+}
+
+.modal .table .table-line {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.modal .table .striped {
+    background-color: #F0F0F0;
+}
+
+.modal .table .table-line span {
+    width: 50%;
+    color: #595959;
+}
+
+.modal .table .table-line .info {
+    font-weight: 600;
+}
