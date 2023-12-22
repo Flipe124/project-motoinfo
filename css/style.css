@@ -29,6 +29,7 @@ header .apresentation {
 header .apresentation span {
     font-family: fantasy;
     font-size: 40px;
+    width: 100%;
 }
 
 header .apresentation i {
@@ -41,6 +42,7 @@ header .apresentation p {
     font-size: 15px;
     font-weight: 500;
     width: 300px;
+    max-width: 100%;
 }
 
 a {
@@ -122,8 +124,23 @@ a {
 
 @media screen and (width < 768px) {
     header {
-        height: 100%;
-        background-size: auto;
+        height: 35vh;
+    }
+
+    header .apresentation {
+        position: absolute;
+        top: 60px;
+        left: 30px;
+
+        max-width: 60%;
+    }
+
+    header .apresentation span {
+        font-size: 25px;
+    }
+
+    header .apresentation p {
+        font-size: 12px;
     }
 
     .container {
