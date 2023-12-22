@@ -43,10 +43,6 @@ header .apresentation p {
     width: 300px;
 }
 
-main {
-    /* background-color: #F0F0F0; */
-}
-
 a {
     text-decoration: none;
     color: #fff;
@@ -118,7 +114,18 @@ a {
     padding-bottom: 3px;
 }
 
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 @media screen and (width < 768px) {
+    header {
+        height: 100%;
+        background-size: auto;
+    }
+
     .container {
         width: 100%;
     }
