@@ -102,6 +102,16 @@ a {
     display: block;
 }
 
+.hide {
+    display: none;
+}
+
+.error-msg {
+    width: 100%;
+    color: #ff0000;
+    padding: 20px 0;
+}
+
 .label-style-gray {
     color: #595959;
     font-weight: 600;
