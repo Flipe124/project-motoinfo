@@ -100,6 +100,36 @@
     overflow: hidden;
 }
 
+/* Animation */
+
+.translate-25 {
+    animation: translate-25 0.5s;
+}
+
+.fade-out {
+    animation: fade-out 0.5s;
+}
+
+@keyframes translate-25 {
+    from {
+        transform: translate(-50%, -25%);
+    }
+
+    to {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
 @media screen and (width < 768px) {
     .modal {
         width: 100%;
