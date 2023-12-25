@@ -55,16 +55,33 @@
 .result-card .data {
     padding: 10px;
     background-color: #fff;
+    color: #595959;
 }
 
 .result-card .name, .brand {
-    color: #595959;
     font-weight: 600;
 }
 
 .result-card .info {
     font-size: 14px;
     padding-top: 10px;
+
+    height: 7.6ch;
+}
+
+.result-card .data .resume {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.result-card .data .resume div {
+    background-color: #F0F0F0;
+    padding: 6px;
+    border-radius: 6px;
 }
 
 @media screen and (width < 768px) {
