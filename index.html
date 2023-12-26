@@ -34,7 +34,7 @@
                     </button>
                     <ul class="menu-list">
                         <li>
-                            <a href="#">Informações</a>
+                            <a href="#section-search-result">Informações</a>
                         </li>
                         <li>
                             <a href="#">Comparativo</a>
@@ -80,9 +80,11 @@
                     </button>
                 </div>
             </section>
-            <section class="section-search-result">
+            <section class="section-search-result" id="section-search-result">
                 <div class="result-card" data-srcimg="./img/honda-xre-300-rally_0.png" data-brand="Honda"
-                    data-name="XRE 300" data-info="Moto trail de 300cc, monocilindro.">
+                    data-name="XRE 300" data-info="Moto trail de 300cc, monocilindro." data-cc="291.6"
+                    data-oil_capacity="2" data-fuel="Gasolina e/ou Etanol" data-fuel_capacity="13.8" data-gear="5"
+                    data-seat_height="860" data-power="25.6" data-soil_height="259">
                     <div class="moto-img">
                         <img src="./img/honda-xre-300-rally_0.png" alt="">
                     </div>
@@ -192,19 +194,35 @@
                 <div class="table">
                     <div class="table-line">
                         <span class="info">Cilindrada</span>
-                        <span class="value">249cc</span>
+                        <span class="value cc"></span>
                     </div>
                     <div class="table-line striped">
-                        <span class="info">Tanque</span>
-                        <span class="value">14L</span>
+                        <span class="info">Potência</span>
+                        <span class="value power"></span>
                     </div>
                     <div class="table-line">
-                        <span class="info">Altura do acento</span>
-                        <span class="value">85cm</span>
+                        <span class="info">Combústivel</span>
+                        <span class="value fuel"></span>
+                    </div>
+                    <div class="table-line striped">
+                        <span class="info">Capacidade Combústivel</span>
+                        <span class="value fuel-capacity"></span>
+                    </div>
+                    <div class="table-line">
+                        <span class="info">Capacidade de Óleo</span>
+                        <span class="value oil-capacity"></span>
                     </div>
                     <div class="table-line striped">
                         <span class="info">Marchas</span>
-                        <span class="value">5</span>
+                        <span class="value gear"></span>
+                    </div>
+                    <div class="table-line">
+                        <span class="info">Altura Assento</span>
+                        <span class="value seat-height"></span>
+                    </div>
+                    <div class="table-line striped">
+                        <span class="info">Altura do Solo</span>
+                        <span class="value soil-height"></span>
                     </div>
                 </div>
             </div>
