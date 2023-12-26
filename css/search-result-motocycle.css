@@ -37,18 +37,18 @@
     height: 160px;
     overflow: hidden;
     position: relative;
+    background-color: #F0F0F0;
 }
 
-.result-card .moto-img img {
+.moto-img img {
     width: 100%;
     padding: 10px 20px;
-    background-color: #F0F0F0;
     border-start-start-radius: 12px;
     border-start-end-radius: 12px;
     transition: transform 0.3s ease-in-out;
 }
 
-.result-card .moto-img img:hover {
+.moto-img img:hover {
     transform: scale(1.1);
 }
 
