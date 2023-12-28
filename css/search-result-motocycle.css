@@ -87,6 +87,12 @@
     margin-right: auto;
     border-radius: 6px;
 }
+@media screen and (width > 1440px) {
+    .section-search-result {
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+}
+
 @media screen and (width < 1200px) {
     .section-search-result {
         grid-template-columns: 33.3% 33.3% 33.3%;
