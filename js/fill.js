@@ -1,7 +1,9 @@
-function fillCard(src_img, brand, model, info, cc, power, torque, fuel, fuel_capacity, oil_capacity, gear, seat_height, soil_height) {
+function fillCard(src_img, brand, model, info, cc, power, torque, fuel, fuel_capacity, oil_capacity, gear, seat_height, soil_height, max_speed) {
     var elementSectionSearchResult = document.querySelector("#section-search-result");
     const UNIT_TORQUE = "kgfm";
     const UNIT_POWER = "cv";
+    const UNIT_VOLUME = "L";
+    const UNIT_SPEED = "Km/h";
 
     elementSectionSearchResult.innerHTML +=
         `<div class="result-card" data-srcimg="${src_img}" data-brand="${brand}"
@@ -25,6 +27,14 @@ function fillCard(src_img, brand, model, info, cc, power, torque, fuel, fuel_cap
                     <div class="torque">
                         <i class="fa-solid fa-wrench"></i>
                         <span>${torque + UNIT_TORQUE}</span>
+                    </div>
+                    <div class="">
+                        <i class="fa-solid fa-gauge-high"></i>
+                        <span>${max_speed + UNIT_SPEED}</span>
+                    </div>
+                    <div class="">
+                        <i class="fa-solid fa-gas-pump"></i>
+                        <span>${fuel_capacity + UNIT_VOLUME}</span>
                     </div>
                 </div>
             </div>
