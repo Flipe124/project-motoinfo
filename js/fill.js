@@ -30,7 +30,7 @@ function fillCard(src_img, brand, model, info, cc, power, torque, fuel, fuel_cap
                     </div>
                     <div class="">
                         <i class="fa-solid fa-gauge-high"></i>
-                        <span>${max_speed + UNIT_SPEED}</span>
+                        <span>${max_speed ? max_speed + UNIT_SPEED : "Indefinido"}</span>
                     </div>
                     <div class="">
                         <i class="fa-solid fa-gas-pump"></i>
