@@ -4,15 +4,15 @@
 }
 
 .section-search-motocycle .search-motocycle {
-    display: flex;
-    align-items: last baseline;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 40% 27% 27% 6%;
+    place-items: end;
 
     padding-top: 15px;
 }
 
 .section-search-motocycle .search-motocycle .div-search-motocycle-input {
-    width: 65%;
+    width: 100%;
 }
 
 .section-search-motocycle .search-motocycle .div-search-motocycle-input #search-motocycle-input {
@@ -34,12 +34,15 @@
 }
 
 .section-search-motocycle .search-motocycle .select {
-    width: 15%;
+    width: 100%;
+    margin-left: 5px;
     padding: 0 5px;
 }
 
 .section-search-motocycle #search-motocycle-button {
-    width: 40px;
+    /* width: 40px; */
+    width: 100%;
+    max-width: 40px;
     height: 40px;
 
     border-radius: 6px;
@@ -53,4 +56,10 @@
 .search-motocycle #search-motocycle-button:hover {
     background-color: #0044FF;
     transition: 0.3s;
+}
+
+@media screen and (width < 500px) {
+    /* .motoinfo-style {
+        width: 100vh;
+    } */
 }
