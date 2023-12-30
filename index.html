@@ -97,20 +97,18 @@
         <div class="modal">
             <button class="button button-close-modal"><i class="fa-solid fa-xmark"></i></button>
             <h1>Ficha Técnica</h1>
-            <div class="modal-content">
-                <div class="modal-content-img">
-                    <img src="" alt="">
-                </div>
-                <div class="motocycle-model"></div>
-                <div class="table">
-                    <div class="table-line">
-                        <span class="info">Cilindrada</span>
-                        <span class="value cc"></span>
-                    </div>
-                    <div class="table-line striped">
-                        <span class="info">Potência</span>
-                        <span class="value power"></span>
-                    </div>
+            <div class="modal-content-img">
+                <img src="" alt="">
+            </div>
+            <div class="motocycle-model"></div>
+            <ul class="switch">
+                <li><button class="button">Combustível</button></li>
+                <li><button class="button">Motor</button></li>
+                <li><button class="button">Dimensões</button></li>
+                <li><button class="button">Transmissão</button></li>
+            </ul>
+            <div class="table">
+                <div class="modal-content info-fuel">
                     <div class="table-line">
                         <span class="info">Combústivel</span>
                         <span class="value fuel"></span>
@@ -118,6 +116,16 @@
                     <div class="table-line striped">
                         <span class="info">Capacidade Combústivel</span>
                         <span class="value fuel-capacity"></span>
+                    </div>
+                </div>
+                <div class="modal-content">
+                    <div class="table-line">
+                        <span class="info">Cilindrada</span>
+                        <span class="value cc"></span>
+                    </div>
+                    <div class="table-line striped">
+                        <span class="info">Potência</span>
+                        <span class="value power"></span>
                     </div>
                     <div class="table-line">
                         <span class="info">Capacidade de Óleo</span>
