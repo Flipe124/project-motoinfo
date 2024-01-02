@@ -5,7 +5,7 @@ motocycleInfo[1] = ["./img/honda-sahara-300.png", "Honda", "Sahara 300", "Moto t
 motocycleInfo[2] = ["./img/honda-nx-400-falcon-carburada.png", "Honda", "NX 400 Falcon", "Moto trail de 400cc, monocilindro.", 397, 30.6, 3.51, "Gasolina e/ou Etanol", 15, 2, 5, 850, 242, 160];
 motocycleInfo[3] = ["./img/honda-nx-400-falcon-2.png", "Honda", "NX 400i Falcon", "Moto trail de 400cc, monocilindro.", 397, 28.7, 3.27, "Gasolina e/ou Etanol", 15.3, 2, 5, 850, 242, 145];
 motocycleInfo[4] = ["./img/yamaha-fazer-250-fz-25.png", "Yamaha", "FZ 25", "Moto naked de 250cc, monocilindro.", 249, 21.5, 2.1, "Gasolina e/ou Etanol", 14, "", 5, 790, "", 150];
-motocycleInfo[5] = ["./img/yamaha-tenere-250.png", "Yamaha", "Tenere 250", "Moto trail de 250cc, monocilindro.", 249, 21.5, 2.1, "Gasolina e/ou Etanol", 16, "", 5, 865, "", 135];
+motocycleInfo[5] = ["./img/yamaha-tenere-250.png", "Yamaha", "Tenere 250", "Moto trail de 250cc, monocilindro.", 249, 21.5, 2.1, "Gasolina e/ou Etanol", 16, 1.55, 5, 865, "", 135, "A ar", 1.400];
 
 
 for (i = 0; i < motocycleInfo.length; i++) {
