@@ -59,3 +59,5 @@ function hideModal() {
     elementModalBlock.classList.add("hide");
     elementModalBlock.classList.remove("fade-out");
 }
+
+// function buttonActive
