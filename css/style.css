@@ -122,6 +122,10 @@ a {
     cursor: pointer;
 }
 
+.title {
+    text-align: center;
+}
+
 @media screen and (width < 768px) {
     header .apresentation {
         position: absolute;
