@@ -101,7 +101,7 @@ a {
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
 
 .error-msg {
@@ -126,9 +126,35 @@ a {
     text-align: center;
 }
 
+.overflow-alert {
+    position: relative;
+    display: flex;
+    width: 100%;
+    bottom: 25vh;
+    
+}
+
+.overflow-alert i {
+    position: relative;
+    color: #F0F0F0;
+    font-size: 50px;
+    left: 50%;
+    animation: floatAnimation 8s infinite linear;
+}
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
 @media screen and (width < 768px) {
     header .apresentation {
-        position: absolute;
+        position: relative;
         top: 60px;
         left: 30px;
 
