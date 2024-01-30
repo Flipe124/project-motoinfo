@@ -11,6 +11,7 @@ motocycleInfo[5] = ["./img/yamaha-tenere-250.png", "Yamaha", "Tenere 250", "Moto
 motocycleInfo[6] = ["./img/honda-xre-190.png", "Honda", "XRE 190", "Moto trail de 190cc, monocilindro.", 184.4, 16.4, 1.66, "Gasolina e/ou Etanol", 13.5, 1.2, 5, 836, "", 135, "A ar", ""];
 motocycleInfo[7] = ["./img/honda-bros-160.png", "Honda", "Bros 160", "Moto trail de 160cc, monocilindro.", 162.7, 14.7, 1.60, "Gasolina e/ou Etanol", 12, 1, 5, 842, "", 120, "A ar", ""];
 motocycleInfo[8] = ["./img/yamaha-crosser-150.png", "Yamaha", "Crosser 150", "Moto trail de 150cc, monocilindro.", 149.3, 12.4, 1.29, "Gasolina e/ou Etanol", 12, 1, 5, 835, "", 120, "A ar", ""];
+motocycleInfo[9] = ["./img/yamaha-tracer-900-gt.png", "Yamaha", "Tracer 900 GT", "Moto trail de 850cc, Três cilindros.", 850, 115, 8.92, "Gasolina e/ou Etanol", 18, 3.4, 6, 845, "", 240, "Líquida", ""];
 
 
 for (i = 0; i < motocycleInfo.length; i++) {
