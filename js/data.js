@@ -13,6 +13,7 @@ motocycleInfo[7] = ["./img/honda-bros-160.png", "Honda", "Bros 160", "Moto trail
 motocycleInfo[8] = ["./img/yamaha-crosser-150.png", "Yamaha", "Crosser 150", "Moto trail de 150cc, monocilindro.", 149.3, 12.4, 1.29, "Gasolina e/ou Etanol", 12, 1, 5, 835, "", 120, "A ar", ""];
 motocycleInfo[9] = ["./img/yamaha-tracer-900-gt.png", "Yamaha", "Tracer 900 GT", "Moto sport touring de 850cc, Três cilindros.", 850, 115, 8.92, "Gasolina e/ou Etanol", 18, 3.4, 6, 845, "", 240, "Líquida", ""];
 motocycleInfo[10] = ["./img/kawasaki-versys-x-300.png", "kawasaki", "Versys X 300", "Moto trail de 296cc, Dois cilindros.", 296, 40, 2.6, "Gasolina e/ou Etanol", 17, 2.4, 6, 845, "", 160, "Líquida", ""];
+motocycleInfo[11] = ["./img/yamaha-lander-250.png", "Yamaha", "lander 250", "Moto trail de 249cc, Dois cilindros.", 249.45, 20.9, 2.1, "Gasolina e/ou Etanol", 11, 1.55, 5, 875, "", 149, "A ar", ""];
 
 
 for (i = 0; i < motocycleInfo.length; i++) {
