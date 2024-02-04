@@ -14,7 +14,8 @@ motocycleInfo[8] = ["./img/yamaha-crosser-150.png", "Yamaha", "Crosser 150", "Mo
 motocycleInfo[9] = ["./img/yamaha-tracer-900-gt.png", "Yamaha", "Tracer 900 GT", "Moto sport touring de 850cc, Três cilindros.", 850, 115, 8.92, "Gasolina e/ou Etanol", 18, 3.4, 6, 845, "", 240, "Líquida", ""];
 motocycleInfo[10] = ["./img/kawasaki-versys-x-300.png", "kawasaki", "Versys X 300", "Moto trail de 296cc, Dois cilindros.", 296, 40, 2.6, "Gasolina e/ou Etanol", 17, 2.4, 6, 845, "", 160, "Líquida", ""];
 motocycleInfo[11] = ["./img/yamaha-lander-250.png", "Yamaha", "lander 250", "Moto trail de 249cc, Dois cilindros.", 249.45, 20.9, 2.1, "Gasolina e/ou Etanol", 11, 1.55, 5, 875, "", 149, "A ar", ""];
-motocycleInfo[12] = ["./img/ktm-duke-390.png", "KTM", "DUke 390", "Moto naked de 373cc, monocilindro.", 373.2, 44, 3.57, "Gasolina e/ou Etanol", 9.5, "", 6, "", "", 160, "", ""];
+motocycleInfo[12] = ["./img/ktm-duke-390.png", "KTM", "Duke 390", "Moto naked de 373cc, monocilindro.", 373.2, 44, 3.57, "Gasolina e/ou Etanol", 9.5, "", 6, "", "", 160, "", ""];
+motocycleInfo[13] = ["./img/yamaha-xt-660.png", "Yamaha", "XT 660", "Moto trail de 660cc, monocilindro.", 660, 48, 5.95, "Gasolina e/ou Etanol", 15, 2.9, 5, 865, "", 180, "", ""];
 
 
 for (i = 0; i < motocycleInfo.length; i++) {
