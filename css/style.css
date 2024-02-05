@@ -156,6 +156,10 @@ a {
     animation: floatAnimation 5s infinite linear;
 }
 
+.max-width {
+    width: 100% !important;
+}
+
 @keyframes floatAnimation {
     0%, 100% {
         transform: translateY(10px);
