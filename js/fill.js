@@ -33,8 +33,12 @@ function fillCard(src_img, brand, model, info, cc, power, torque, fuel, fuel_cap
                         <span>${max_speed ? max_speed + UNIT_SPEED : "Indefinido"}</span>
                     </div>
                     <div class="">
-                        <i class="fa-solid fa-gas-pump"></i>
+                    <i class="fa-solid fa-battery-full"></i>
+                    <!-- <i class="fa-solid fa-gas-pump"></i> -->
                         <span>${fuel_capacity + UNIT_VOLUME}</span>
+                    </div>
+                    <div class="max-width">
+                        <span><i class="fa-solid fa-gas-pump"></i> 25km/L</span>
                     </div>
                 </div>
             </div>
