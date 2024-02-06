@@ -20,6 +20,10 @@ function fillCard(src_img, brand, model, info, cc, power, torque, fuel, fuel_cap
                     ${info}
                 </p>
                 <div class="resume">
+                    <!--<div class="">
+                        <i class="fa-solid fa-database"></i>
+                        <span>${cc}cc</span>
+                    </div>-->
                     <div class="power">
                         <i class="fa-solid fa-horse-head"></i>
                         <span>${power + UNIT_POWER}</span>
