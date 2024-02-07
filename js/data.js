@@ -17,6 +17,7 @@ motocycleInfo[11] = ["./img/yamaha-lander-250.png", "Yamaha", "lander 250", "Mot
 motocycleInfo[12] = ["./img/ktm-duke-390.png", "KTM", "Duke 390", "Moto naked de 373cc, monocilindro.", 373.2, 44, 3.57, "Gasolina e/ou Etanol", 9.5, "", 6, "", "", 160, "", ""];
 motocycleInfo[13] = ["./img/yamaha-xt-660.png", "Yamaha", "XT 660", "Moto trail de 660cc, monocilindro.", 660, 48, 5.95, "Gasolina e/ou Etanol", 15, 2.9, 5, 865, "", 180, "", ""];
 motocycleInfo[14] = ["./img/yamaha-mt-03.png", "Yamaha", "MT 03", "Moto naked de 321cc, Dois cilindros.", 321, 42, 2.96, "Gasolina e/ou Etanol", 14, 2.4, 6, 780, "", 180, "", ""];
+motocycleInfo[15] = ["./img/kawasaki-z-300.png", "Kawasaki", "Z 300", "Moto naked de 296cc, Dois cilindros.", 296, 39, 2.8, "Gasolina e/ou Etanol", 17, 2.4, 6, 785, "", 170, "", ""];
 
 
 for (i = 0; i < motocycleInfo.length; i++) {
