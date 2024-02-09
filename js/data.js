@@ -19,6 +19,7 @@ motocycleInfo[13] = ["./img/yamaha-xt-660.png", "Yamaha", "XT 660", "Moto trail 
 motocycleInfo[14] = ["./img/yamaha-mt-03.png", "Yamaha", "MT 03", "Moto naked de 321cc, Dois cilindros.", 321, 42, 2.96, "Gasolina e/ou Etanol", 14, 2.4, 6, 780, "", 180, "", ""];
 motocycleInfo[15] = ["./img/kawasaki-z-300.png", "Kawasaki", "Z 300", "Moto naked de 296cc, Dois cilindros.", 296, 39, 2.8, "Gasolina e/ou Etanol", 17, 2.4, 6, 785, "", 170, "", ""];
 motocycleInfo[16] = ["./img/kawasaki-ninja-300.png", "Kawasaki", "Ninja 300", "Moto sport de 296cc, Dois cilindros.", 296, 39, 2.8, "Gasolina e/ou Etanol", 17, 2.4, 6, 785, "", 170, "", ""];
+motocycleInfo[17] = ["./img/kawasaki-z-400.png", "Kawasaki", "Z 400", "Moto naked de 296cc, Dois cilindros.", 399, 48, 3.9, "Gasolina e/ou Etanol", 14, 2.3, 6, 785, "", 180, "", ""];
 
 
 for (i = 0; i < motocycleInfo.length; i++) {
@@ -30,7 +31,7 @@ for (i = 0; i < motocycleInfo.length; i++) {
         motocycleInfo[i][4],
         motocycleInfo[i][5],
         motocycleInfo[i][6],
-        motocycleInfo[i][7],
+        motocycleInfo[i][7], 
         motocycleInfo[i][8],
         motocycleInfo[i][9],
         motocycleInfo[i][10],
