@@ -5,6 +5,8 @@ function fillCard(motorcycle) {
     const UNIT_POWER = "cv";
     const UNIT_VOLUME = "L";
     const UNIT_SPEED = "Km/h";
+    const UNIT_CONSUMPTION = "Km/L";
+    const UNIT_DISTANCE = "Km";
 
     elementSectionSearchResult.innerHTML +=
         `<div class="result-card" data-srcimg="${motorcycle.src_img}" data-brand="${motorcycle.brand}"
@@ -42,8 +44,9 @@ function fillCard(motorcycle) {
                     <!-- <i class="fa-solid fa-gas-pump"></i> -->
                         <span>${motorcycle.fuel_capacity + UNIT_VOLUME}</span>
                     </div>
-                    <div class="max-width">
-                        <span><i class="fa-solid fa-gas-pump"></i> 25km/L</span>
+                    <div class="max-width consumption">
+                        <span><i class="fa-solid fa-gas-pump"></i> ${motorcycle.consumption ? motorcycle.consumption + UNIT_CONSUMPTION : `Indefinido`} </span>
+                        <span class="span-2">${motorcycle.consumption ? `<i class="fa-solid fa-map-location"></i> ` + Math.round(motorcycle.consumption * motorcycle.fuel_capacity) + UNIT_DISTANCE : ``}</span>
                     </div>
                 </div>
             </div>
