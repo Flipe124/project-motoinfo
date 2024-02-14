@@ -61,3 +61,26 @@ function hideModal() {
 }
 
 // function buttonActive
+
+function buttonSwitch(option){
+    var modalContent = document.querySelectorAll(".modal-content");
+    var modalContentSelect = document.querySelector(`.modal-content .info-${option.getAttribute("data-option")}`)
+    var buttonsOption = document.querySelectorAll(".switch .button")
+    var optionButton = document.querySelector(`#${option.getAttribute("id")}`);
+
+    modalContent.forEach(function(element) {
+        element.classList.add("hide");
+    });
+    
+    console.log(modalContentSelect);
+
+    modalContentSelect.classList.remove("hide");
+
+    buttonsOption.forEach(function(element) {
+        element.classList.remove("active");
+    });
+
+    optionButton.classList.remove("hide");
+    optionButton.classList.add("active")
+    
+}
