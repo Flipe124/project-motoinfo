@@ -134,9 +134,9 @@
             </div>
             <div class="motocycle-model"></div>
             <ul class="switch">
-                <li><button class="button active">Motor</button></li>
-                <li><button class="button">Combustível</button></li>
-                <li><button class="button">Dimensões</button></li>
+                <li><button class="button active" id="engine" data-option="engine" onclick="buttonSwitch(this)">Motor</button></li>
+                <li><button class="button" id="fuel" data-option="fuel" onclick="buttonSwitch(this)">Combustível</button></li>
+                <li><button class="button" id="dimensions" data-option="dimensions" onclick="buttonSwitch(this)">Dimensões</button></li>
                 <li><button class="button" id="transmission" data-option="transmission" onclick="buttonSwitch(this)">Transmissão</button></li>
             </ul>
             <div class="table">
@@ -164,7 +164,7 @@
                         <span class="value fuel-capacity"></span>
                     </div>
                 </div>
-                <div class="modal-content info-transmition hide">
+                <div class="modal-content info-transmission">
                     <div class="table-line striped">
                         <span class="info">Embreagem</span>
                         <span class="value ">Multidisco banhada a óleo</span>
