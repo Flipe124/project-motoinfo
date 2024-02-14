@@ -195,3 +195,6 @@ a {
         padding: 0;
     }
 }
+
+@media screen and (width < 480px) {
+}
