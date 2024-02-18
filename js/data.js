@@ -26,7 +26,7 @@ var motorcycleInfo = [];
 motorcycleInfo.push(new Motorcycle("./img/honda-xre-300-rally_0.png", "Honda", "XRE 300", "Moto trail de 300cc, monocilindro.", 291.6, 25.6, 2.8, "Gasolina e/ou Etanol", 13.8, 2, 5, 860, 259, 136, "Líquida", 28));
 motorcycleInfo.push(new Motorcycle("./img/honda-sahara-300.png", "Honda", "Sahara 300", "Moto trail de 300cc, monocilindro.", 293.5, 25.2, 2.74, "Gasolina e/ou Etanol", 13.8, 2, 6, 859, 269, 160, "Líquida", 28));
 motorcycleInfo.push(new Motorcycle("./img/honda-nx-400-falcon-carburada.png", "Honda", "NX 400 Falcon", "Moto trail de 400cc, monocilindro.", 397, 30.6, 3.51, "Gasolina e/ou Etanol", 15, 2, 5, 850, 242, 160, "A ar", 25.8));
-motorcycleInfo.push(new Motorcycle("./img/honda-nx-400-falcon-2.png", "Honda", "NX 400i Falcon", "Moto trail de 400cc, monocilindro.", 397, 28.7, 3.27, "Gasolina e/ou Etanol", 15.3, 2, 5, 850, 242, 145, "A ar"));
+motorcycleInfo.push(new Motorcycle("./img/honda-nx-400-falcon-2.png", "Honda", "NX 400i Falcon", "Moto trail de 400cc, monocilindro.", 397, 28.7, 3.27, "Gasolina e/ou Etanol", 15.3, 2, 5, 850, 242, 145, "A ar", 28));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-fazer-250-fz-25.png", "Yamaha", "FZ 25", "Moto naked de 250cc, monocilindro.", 249, 21.5, 2.1, "Gasolina e/ou Etanol", 14, "", 5, 790, "", 150, "A ar", 31));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-tenere-250.png", "Yamaha", "Tenere 250", "Moto trail de 250cc, monocilindro.", 249, 21.5, 2.1, "Gasolina e/ou Etanol", 16, 1.55, 5, 865, "", 135, "A ar", 27.36));
 motorcycleInfo.push(new Motorcycle("./img/honda-xre-190.png", "Honda", "XRE 190", "Moto trail de 190cc, monocilindro.", 184.4, 16.4, 1.66, "Gasolina e/ou Etanol", 13.5, 1.2, 5, 836, "", 135, "A ar", 30));
@@ -36,7 +36,7 @@ motorcycleInfo.push(new Motorcycle("./img/yamaha-tracer-900-gt.png", "Yamaha", "
 motorcycleInfo.push(new Motorcycle("./img/kawasaki-versys-x-300.png", "kawasaki", "Versys X 300", "Moto trail de 296cc, Dois cilindros.", 296, 40, 2.6, "Gasolina e/ou Etanol", 17, 2.4, 6, 845, "", 160, "Líquida", 26));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-lander-250.png", "Yamaha", "lander 250", "Moto trail de 249cc, Dois cilindros.", 249.45, 20.9, 2.1, "Gasolina e/ou Etanol", 11, 1.55, 5, 875, "", 149, "A ar"));
 motorcycleInfo.push(new Motorcycle("./img/ktm-duke-390.png", "KTM", "Duke 390", "Moto naked de 373cc, monocilindro.", 373.2, 44, 3.57, "Gasolina e/ou Etanol", 9.5, "", 6, "", "", 160, "Líquida", 22));
-motorcycleInfo.push(new Motorcycle("./img/yamaha-xt-660.png", "Yamaha", "XT 660", "Moto trail de 660cc, monocilindro.", 660, 48, 5.95, "Gasolina e/ou Etanol", 15, 2.9, 5, 865, "", 180, "Líquida"));
+motorcycleInfo.push(new Motorcycle("./img/yamaha-xt-660.png", "Yamaha", "XT 660", "Moto trail de 660cc, monocilindro.", 660, 48, 5.95, "Gasolina e/ou Etanol", 15, 2.9, 5, 865, "", 180, "Líquida", 23));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-mt-03.png", "Yamaha", "MT 03", "Moto naked de 321cc, Dois cilindros.", 321, 42, 2.96, "Gasolina e/ou Etanol", 14, 2.4, 6, 780, "", 180, "Líquida", 22));
 motorcycleInfo.push(new Motorcycle("./img/kawasaki-z-300.png", "Kawasaki", "Z 300", "Moto naked de 296cc, Dois cilindros.", 296, 39, 2.8, "Gasolina e/ou Etanol", 17, 2.4, 6, 785, "", 170, "Líquida", 21.5));
 motorcycleInfo.push(new Motorcycle("./img/kawasaki-ninja-300.png", "Kawasaki", "Ninja 300", "Moto sport de 296cc, Dois cilindros.", 296, 39, 2.8, "Gasolina e/ou Etanol", 17, 2.4, 6, 785, "", 170, "Líquida", 22));
