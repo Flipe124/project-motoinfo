@@ -45,6 +45,7 @@ motorcycleInfo.push(new Motorcycle("./img/honda-cb-twister.png", "Honda", "Cb Tw
 motorcycleInfo.push(new Motorcycle("./img/kawasaki-versys-650.png", "Kawasaki", "Versys 650", "Moto Sport Touring de 649cc, Dois cilindros.", 649, 59.4, 6.5, "Gasolina e/ou Etanol", 19, 2.4, 6, 840, "", 205, "Líquida", 25));
 motorcycleInfo.push(new Motorcycle("./img/honda-adv-150.png", "Honda", "ADV 150", "Moto Scooter de 149cc, monocilindro.", 149.3, 13.2, 1.38, "Gasolina e/ou Etanol", 8, 0.9, "CVT", 795, "", 115, "A ar", 50.9));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-r3.png", "Yamaha", "R3", "Moto Sport de 320cc, Dois Cilindros.", 320.6, 42.01, 3.02, "Gasolina e/ou Etanol", 14, 2.4, 6, 780, "", 180, "Líquida", 28));
+motorcycleInfo.push(new Motorcycle("./img/yamaha-r15.png", "Yamaha", "R3", "Moto Sport de 155cc, monocilindro.", 155, 18.8, 1.5, "Gasolina e/ou Etanol", 11, 0, 6, 815, "", 155, "Líquida", 45));
 
 motorcycleInfo.forEach(Motorcycle => {
     fillCard(Motorcycle);
