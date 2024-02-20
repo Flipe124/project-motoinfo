@@ -127,7 +127,7 @@
     </main>
     <div class="modal-block hide">
         <div class="modal">
-            <button class="button button-close-modal"><i class="fa-solid fa-xmark"></i></button>
+            <button class="button button-close-modal" onclick="closeModalSpecs()"><i class="fa-solid fa-xmark"></i></button>
             <h1>Ficha Técnica</h1>
             <div class="modal-content-img">
                 <img src="" alt="">
@@ -140,7 +140,7 @@
                 <li><button class="button" id="transmission" data-option="transmission" onclick="buttonSwitch(this)">Transmissão</button></li>
             </ul>
             <div class="table">
-                <div class="modal-content info-engine">
+                <div class="modal-content info-engine" id="info-engine">
                     <div class="table-line">
                         <span class="info">Cilindrada</span>
                         <span class="value cc"></span>
@@ -154,7 +154,7 @@
                         <span class="value oil-capacity"></span>
                     </div>
                 </div>
-                <div class="modal-content info-fuel hide">
+                <div class="modal-content info-fuel hide" id="info-fuel">
                     <div class="table-line">
                         <span class="info">Combústivel</span>
                         <span class="value fuel"></span>
@@ -164,7 +164,7 @@
                         <span class="value fuel-capacity"></span>
                     </div>
                 </div>
-                <div class="modal-content info-transmission">
+                <div class="modal-content info-transmission" id="info-transmission">
                     <div class="table-line striped">
                         <span class="info">Embreagem</span>
                         <span class="value ">Multidisco banhada a óleo</span>
