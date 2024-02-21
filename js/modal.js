@@ -43,16 +43,19 @@ for (const elementResultCard of elementsResultCard) {
         ModalTableValueSoilHeightField.innerHTML = `${elementResultCard.dataset.soil_height ? elementResultCard.dataset.soil_height + unitLength : "--"}`;
 
         console.log(elementResultCard.dataset.brand)
+
     });
 }
 
-elementButtonCloseModal.addEventListener("click", function () {
+
+
+function closeModalSpecs() {
     elementModalBlock.classList.add("fade-out");
 
     setTimeout(function () {
         hideModal();
     }, 450);
-});
+}
 
 function hideModal() {
     elementBody.classList.remove("overflow-hidden");
@@ -64,20 +67,24 @@ function hideModal() {
 
 function buttonSwitch(option){
     var modalContent = document.querySelectorAll(".modal-content");
-    var modalContentSelect = document.querySelector(`.modal-content .info-${option.getAttribute("data-option")}`)
+    var modalContentSelect = document.querySelector(`.modal-content #info-${option.getAttribute("data-option")}`)
     var buttonsOption = document.querySelectorAll(".switch .button")
     var optionButton = document.querySelector(`#${option.getAttribute("id")}`);
 
     modalContent.forEach(function(element) {
         element.classList.add("hide");
+        console.log("Erro ao esconder elemento")
     });
     
-    console.log(modalContentSelect);
+    modalContentSelect != null ? modalContentSelect.classList.remove("hide") : console.log("ModalContentSelect vazio");
 
-    modalContentSelect.classList.remove("hide");
+    // console.log(modalContentSelect);
+
+    // modalContentSelect.classList.remove("hide");
 
     buttonsOption.forEach(function(element) {
         element.classList.remove("active");
+        console.log("Erro remover ativação");
     });
 
     optionButton.classList.remove("hide");
