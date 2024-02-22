@@ -8,45 +8,88 @@ const elementButtonCloseModal = document.querySelector(".button-close-modal");
 
 const unitLength = "mm";
 const unitCapacity = "L";
-const unitPower = "cv"
+const unitPower = "cv";
+const UNIT_STRENGHT = "Kgfm";
 const unitCubicCapacity = "cc";
 
-for (const elementResultCard of elementsResultCard) {
-    elementResultCard.addEventListener("click", function () {
-        elementModalBlock.classList.remove("hide");
-        elementBody.classList.add("overflow-hidden");
-        elementModal.classList.add("translate-25");
+function fillModalSpecs(element) {
+    elementModalBlock.classList.remove("hide");
+    elementBody.classList.add("overflow-hidden");
+    
+    elementModalBlock.innerHTML = 
+    `
+    <div class="modal">
+            <button class="button button-close-modal" onclick="closeModalSpecs()"><i class="fa-solid fa-xmark"></i></button>
+            <h1>Ficha Técnica</h1>
+            <div class="modal-content-img">
+                <img src="${element.dataset.srcimg}" alt="">
+            </div>
+            <div class="motocycle-model">${element.dataset.brand + " " + element.dataset.name}</div>
+            <ul class="switch">
+                <li><button class="button active" id="engine" data-option="engine" onclick="buttonSwitch(this)">Motor</button></li>
+                <li><button class="button" id="fuel" data-option="fuel" onclick="buttonSwitch(this)">Combustível</button></li>
+                <li><button class="button" id="dimensions" data-option="dimensions" onclick="buttonSwitch(this)">Dimensões</button></li>
+                <li><button class="button" id="transmission" data-option="transmission" onclick="buttonSwitch(this)">Transmissão</button></li>
+            </ul>
+            <div class="table">
+                <div class="modal-content info-engine" id="info-engine">
+                    <div class="table-line">
+                        <span class="info">Cilindrada</span>
+                        <span class="value cc">${element.dataset.cc + unitCubicCapacity}</span>
+                    </div>
+                    <div class="table-line striped">
+                        <span class="info">Potência</span>
+                        <span class="value power">${element.dataset.power + unitPower}</span>
+                    </div>
+                    <div class="table-line ">
+                        <span class="info">Potência</span>
+                        <span class="value power">${element.dataset.torque + UNIT_STRENGHT}</span>
+                    </div>
+                    <div class="table-line">
+                        <span class="info">Capacidade de Óleo</span>
+                        <span class="value oil-capacity">${element.dataset.oil_capacity + unitCapacity}</span>
+                    </div>
+                </div>
+                <div class="modal-content info-fuel" id="info-fuel">
+                    <div class="table-line">
+                        <span class="info">Combústivel</span>
+                        <span class="value fuel">${element.dataset.fuel}</span>
+                    </div>
+                    <div class="table-line striped">
+                        <span class="info">Capacidade Combústivel</span>
+                        <span class="value fuel-capacity">${element.dataset.fuel_capacity + unitCapacity}</span>
+                    </div>
+                </div>
+                <div class="modal-content info-transmission" id="info-transmission">
+                    <div class="table-line striped">
+                        <span class="info">Embreagem</span>
+                        <span class="value ">Multidisco banhada a óleo</span>
+                    </div>
+                    <div class="table-line">
+                        <span class="info">Velocidades</span>
+                        <span class="value gear">${element.dataset.gear}</span>
+                    </div>
+                    <div class="table-line striped">
+                        <span class="info">Transmissão final</span>
+                        <span class="value ">Por corrente</span>
+                    </div>
+                </div>
+                <div class="modal-content info-dimensions" id="info-dimensions">
+                    <div class="table-line">
+                        <span class="info">Altura do Solo</span>
+                        <span class="value soil-height">${element.dataset.soil_height ? element.dataset.soil_height + unitLength : "-"}</span>
+                    </div>
+                    <div class="table-line">
+                        <span class="info">Altura Assento</span>
+                        <span class="value seat-height">${element.dataset.seat_height + unitLength}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `
 
-        const fieldDataMotocycleImg = document.querySelector(".modal-content-img img")
-        const fieldDataNameMotocycle = document.querySelector(".motocycle-model");
-        const fielDataName = document.querySelector(".data .name");
-
-        const ModalTableValueCcField = document.querySelector(".table .cc");
-        const ModalTableValueGearField = document.querySelector(".table .gear");
-        const ModalTableValueFuelField = document.querySelector(".table .fuel");
-        const ModalTableValuePowerField = document.querySelector(".table .power");
-        const ModalTableValueFuelCapacityField = document.querySelector(".table .fuel-capacity");
-        const ModalTableValueOilCapacityField = document.querySelector(".table .oil-capacity");
-        const ModalTableValueSeatHeightField = document.querySelector(".table .seat-height");
-        const ModalTableValueSoilHeightField = document.querySelector(".table .soil-height");
-
-        fieldDataMotocycleImg.setAttribute("src", elementResultCard.dataset.srcimg);
-        fieldDataNameMotocycle.innerHTML = `${elementResultCard.dataset.brand ? elementResultCard.dataset.brand : "--"} ${elementResultCard.dataset.name ? elementResultCard.dataset.name : "--"}`;
-
-        ModalTableValuePowerField.innerHTML = `${elementResultCard.dataset.power ? elementResultCard.dataset.power + unitPower : "--"}`;
-        ModalTableValueCcField.innerHTML = `${elementResultCard.dataset.cc ? elementResultCard.dataset.cc + unitCubicCapacity : "--"}`;
-        ModalTableValueGearField.innerHTML = `${elementResultCard.dataset.gear ? elementResultCard.dataset.gear : "--"}`;
-        ModalTableValueFuelField.innerHTML = `${elementResultCard.dataset.fuel ? elementResultCard.dataset.fuel : "--"}`;
-        ModalTableValueFuelCapacityField.innerHTML = `${elementResultCard.dataset.fuel_capacity ? elementResultCard.dataset.fuel_capacity + unitCapacity : "--"}`;
-        ModalTableValueOilCapacityField.innerHTML = `${elementResultCard.dataset.oil_capacity ? elementResultCard.dataset.oil_capacity + unitCapacity : "--"}`;
-        ModalTableValueSeatHeightField.innerHTML = `${elementResultCard.dataset.seat_height ? elementResultCard.dataset.seat_height + unitLength : "--"}`;
-        ModalTableValueSoilHeightField.innerHTML = `${elementResultCard.dataset.soil_height ? elementResultCard.dataset.soil_height + unitLength : "--"}`;
-
-        console.log(elementResultCard.dataset.brand)
-
-    });
+    // elementModal.classList.add("translate-25");
 }
-
 
 
 function closeModalSpecs() {
