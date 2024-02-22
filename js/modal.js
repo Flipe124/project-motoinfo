@@ -12,6 +12,8 @@ const unitPower = "cv";
 const UNIT_STRENGHT = "Kgfm";
 const unitCubicCapacity = "cc";
 
+const ICON_NOT_FOUND = "../img/icon-not-found.png";
+
 function fillModalSpecs(element) {
     elementModalBlock.classList.remove("hide");
     elementBody.classList.add("overflow-hidden");
@@ -22,7 +24,7 @@ function fillModalSpecs(element) {
             <button class="button button-close-modal" onclick="closeModalSpecs()"><i class="fa-solid fa-xmark"></i></button>
             <h1>Ficha Técnica</h1>
             <div class="modal-content-img">
-                <img src="${element.dataset.srcimg}" alt="">
+                <img src="${element.dataset.srcimg ? element.dataset.srcimg : ICON_NOT_FOUND}" alt="">
             </div>
             <div class="motocycle-model">${element.dataset.brand + " " + element.dataset.name}</div>
             <ul class="switch">
@@ -35,29 +37,29 @@ function fillModalSpecs(element) {
                 <div class="modal-content info-engine" id="info-engine">
                     <div class="table-line">
                         <span class="info">Cilindrada</span>
-                        <span class="value cc">${element.dataset.cc + unitCubicCapacity}</span>
+                        <span class="value cc">${element.dataset.cc ? element.dataset.cc + unitCubicCapacity : "-"}</span>
                     </div>
                     <div class="table-line striped">
                         <span class="info">Potência</span>
-                        <span class="value power">${element.dataset.power + unitPower}</span>
+                        <span class="value power">${element.dataset.power ? element.dataset.power + unitPower : "-"}</span>
                     </div>
                     <div class="table-line ">
                         <span class="info">Potência</span>
-                        <span class="value power">${element.dataset.torque + UNIT_STRENGHT}</span>
+                        <span class="value power">${element.dataset.torque ? element.dataset.torque + UNIT_STRENGHT : "-"}</span>
                     </div>
                     <div class="table-line">
                         <span class="info">Capacidade de Óleo</span>
-                        <span class="value oil-capacity">${element.dataset.oil_capacity + unitCapacity}</span>
+                        <span class="value oil-capacity">${element.dataset.oil_capacity ? element.dataset.oil_capacity + unitCapacity : "-"}</span>
                     </div>
                 </div>
                 <div class="modal-content info-fuel" id="info-fuel">
                     <div class="table-line">
                         <span class="info">Combústivel</span>
-                        <span class="value fuel">${element.dataset.fuel}</span>
+                        <span class="value fuel">${element.dataset.fuel ? element.dataset.fuel : "-"}</span>
                     </div>
                     <div class="table-line striped">
                         <span class="info">Capacidade Combústivel</span>
-                        <span class="value fuel-capacity">${element.dataset.fuel_capacity + unitCapacity}</span>
+                        <span class="value fuel-capacity">${element.dataset.fuel_capacity ? element.dataset.fuel_capacity + unitCapacity : "-"}</span>
                     </div>
                 </div>
                 <div class="modal-content info-transmission" id="info-transmission">
@@ -67,7 +69,7 @@ function fillModalSpecs(element) {
                     </div>
                     <div class="table-line">
                         <span class="info">Velocidades</span>
-                        <span class="value gear">${element.dataset.gear}</span>
+                        <span class="value gear">${element.dataset.gear ? element.dataset.gear : "-"}</span>
                     </div>
                     <div class="table-line striped">
                         <span class="info">Transmissão final</span>
@@ -81,7 +83,7 @@ function fillModalSpecs(element) {
                     </div>
                     <div class="table-line">
                         <span class="info">Altura Assento</span>
-                        <span class="value seat-height">${element.dataset.seat_height + unitLength}</span>
+                        <span class="value seat-height">${element.dataset.seat_height ? element.dataset.seat_height + unitLength : "-"}</span>
                     </div>
                 </div>
             </div>
