@@ -6,11 +6,11 @@ const elementModalContent = document.querySelector(".modal-content");
 const elementsResultCard = document.querySelectorAll(".result-card");
 const elementButtonCloseModal = document.querySelector(".button-close-modal");
 
-const unitLength = "mm";
-const unitCapacity = "L";
-const unitPower = "cv";
+const UNIT_LENGTH = "mm";
+const UNIT_CAPACITY = "L";
+const UNIT_POWER = "cv";
 const UNIT_STRENGHT = "Kgfm";
-const unitCubicCapacity = "cc";
+const UNIT_CUBIC_CAPACITY = "cc";
 
 const ICON_NOT_FOUND = "../img/icon-not-found.png";
 
@@ -37,11 +37,11 @@ function fillModalSpecs(element) {
                 <div class="modal-content info-engine" id="info-engine">
                     <div class="table-line">
                         <span class="info">Cilindrada</span>
-                        <span class="value cc">${element.dataset.cc ? element.dataset.cc + unitCubicCapacity : "-"}</span>
+                        <span class="value cc">${element.dataset.cc ? element.dataset.cc + UNIT_CUBIC_CAPACITY : "-"}</span>
                     </div>
                     <div class="table-line striped">
                         <span class="info">Potência</span>
-                        <span class="value power">${element.dataset.power ? element.dataset.power + unitPower : "-"}</span>
+                        <span class="value power">${element.dataset.power ? element.dataset.power + UNIT_POWER : "-"}</span>
                     </div>
                     <div class="table-line ">
                         <span class="info">Potência</span>
@@ -49,7 +49,7 @@ function fillModalSpecs(element) {
                     </div>
                     <div class="table-line">
                         <span class="info">Capacidade de Óleo</span>
-                        <span class="value oil-capacity">${element.dataset.oil_capacity ? element.dataset.oil_capacity + unitCapacity : "-"}</span>
+                        <span class="value oil-capacity">${element.dataset.oil_capacity ? element.dataset.oil_capacity + UNIT_CAPACITY : "-"}</span>
                     </div>
                 </div>
                 <div class="modal-content info-fuel" id="info-fuel">
@@ -59,7 +59,7 @@ function fillModalSpecs(element) {
                     </div>
                     <div class="table-line striped">
                         <span class="info">Capacidade Combústivel</span>
-                        <span class="value fuel-capacity">${element.dataset.fuel_capacity ? element.dataset.fuel_capacity + unitCapacity : "-"}</span>
+                        <span class="value fuel-capacity">${element.dataset.fuel_capacity ? element.dataset.fuel_capacity + UNIT_CAPACITY : "-"}</span>
                     </div>
                 </div>
                 <div class="modal-content info-transmission" id="info-transmission">
@@ -79,11 +79,11 @@ function fillModalSpecs(element) {
                 <div class="modal-content info-dimensions" id="info-dimensions">
                     <div class="table-line">
                         <span class="info">Altura do Solo</span>
-                        <span class="value soil-height">${element.dataset.soil_height ? element.dataset.soil_height + unitLength : "-"}</span>
+                        <span class="value soil-height">${element.dataset.soil_height ? element.dataset.soil_height + UNIT_LENGTH : "-"}</span>
                     </div>
                     <div class="table-line">
                         <span class="info">Altura Assento</span>
-                        <span class="value seat-height">${element.dataset.seat_height ? element.dataset.seat_height + unitLength : "-"}</span>
+                        <span class="value seat-height">${element.dataset.seat_height ? element.dataset.seat_height + UNIT_LENGTH : "-"}</span>
                     </div>
                 </div>
             </div>
