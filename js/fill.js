@@ -12,7 +12,7 @@ function fillCard(motorcycle) {
         `<div class="result-card" data-srcimg="${motorcycle.src_img}" data-brand="${motorcycle.brand}"
             data-name="${motorcycle.model}" data-info="${motorcycle.info}" data-cc="${motorcycle.cc}" data-power="${motorcycle.power}" data-torque="${motorcycle.torque}"
             data-fuel="${motorcycle.fuel}" data-fuel_capacity="${motorcycle.fuel_capacity}" data-oil_capacity="${motorcycle.oil_capacity}" data-gear="${motorcycle.gear}"
-            data-seat_height="${motorcycle.seat_height}" data-soil_height="${motorcycle.soil_height}">
+            data-seat_height="${motorcycle.seat_height}" data-soil_height="${motorcycle.soil_height}" onclick="fillModalSpecs(this)">
             <div class="moto-img">
                 <img src="${motorcycle.src_img}" alt="Imagem da ${motorcycle.brand} ${motorcycle.model}">
             </div>
