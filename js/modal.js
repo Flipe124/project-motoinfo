@@ -61,6 +61,14 @@ function fillModalSpecs(element) {
                         <span class="info">Capacidade Combústivel</span>
                         <span class="value fuel-capacity">${element.dataset.fuel_capacity ? element.dataset.fuel_capacity + UNIT_CAPACITY : "-"}</span>
                     </div>
+                    <div class="table-line striped">
+                        <span class="info">Consumo de combústivel</span>
+                        <span class="value ">30km/L</span>
+                    </div>
+                    <div class="table-line striped">
+                        <span class="info">Autonomia com tanque</span>
+                        <span class="value ">450km</span>
+                    </div>
                 </div>
                 <div class="modal-content info-transmission" id="info-transmission">
                     <div class="table-line striped">
@@ -84,6 +92,10 @@ function fillModalSpecs(element) {
                     <div class="table-line">
                         <span class="info">Altura Assento</span>
                         <span class="value seat-height">${element.dataset.seat_height ? element.dataset.seat_height + UNIT_LENGTH : "-"}</span>
+                    </div>
+                    <div class="table-line striped">
+                        <span class="info">Altura total</span>
+                        <span class="value ">1080mm</span>
                     </div>
                 </div>
             </div>
