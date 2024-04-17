@@ -47,6 +47,7 @@ motorcycleInfo.push(new Motorcycle("./img/honda-adv-150.png", "Honda", "ADV 150"
 motorcycleInfo.push(new Motorcycle("./img/yamaha-r3.png", "Yamaha", "R3", "Moto Sport de 320cc, Dois Cilindros.", 320.6, 42.01, 3.02, "Gasolina e/ou Etanol", 14, 2.4, 6, 780, "", 180, "Líquida", 28));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-r15.png", "Yamaha", "R15", "Moto Sport de 155cc, monocilindro.", 155, 18.8, 1.5, "Gasolina e/ou Etanol", 11, 0, 6, 815, "", 155, "Líquida", 45));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-fz-15.png", "Yamaha", "FZ 15", "Moto Sport de 149cc, monocilindro.", 149.3, 12.4, 1.3, "Gasolina e/ou Etanol", 11.9, 0, 5, 790, "", 134, "Líquida", 37));
+motorcycleInfo.push(new Motorcycle("./img/yamaha-mt-07.png", "Yamaha", "MT 07", "Moto Naked de 689cc, monocilindro.", 689, 74.8, 6.9, "Gasolina e/ou Etanol", 14, 0, 6, 805, "", 230, "Líquida", 21.2));
 
 motorcycleInfo.forEach(Motorcycle => {
     fillCard(Motorcycle);
