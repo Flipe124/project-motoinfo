@@ -49,6 +49,7 @@ motorcycleInfo.push(new Motorcycle("./img/yamaha-r15.png", "Yamaha", "R15", "Mot
 motorcycleInfo.push(new Motorcycle("./img/yamaha-fz-15.png", "Yamaha", "FZ 15", "Moto Sport de 149cc, monocilindro.", 149.3, 12.4, 1.3, "Gasolina e/ou Etanol", 11.9, 0, 5, 790, "", 134, "Líquida", 37));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-mt-07.png", "Yamaha", "MT 07", "Moto Naked de 689cc, dois cilindros.", 689, 74.8, 6.9, "Gasolina e/ou Etanol", 14, 0, 6, 805, "", 230, "Líquida", 21.2));
 motorcycleInfo.push(new Motorcycle("./img/bmw-g-310-gs.png", "BMW", "G 310 GS", "Moto trail de 313cc, monocilindro.", 313, 34, 2.9, "Gasolina", 11.5, 1.65, 6, 835, "", 143, "Líquida", 35));
+motorcycleInfo.push(new Motorcycle("./img/bmw-f-800-gs.png", "BMW", "F 800 GS", "Moto trail de 798cc, dois cilindros..", 798, 85, 8.5, "Gasolina", 16, 0, 6, 880, "", 200, "Líquida", 23.2));
 
 
 motorcycleInfo.forEach(Motorcycle => {
