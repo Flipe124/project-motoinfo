@@ -44,10 +44,12 @@ motorcycleInfo.push(new Motorcycle("./img/kawasaki-z-400.png", "Kawasaki", "Z 40
 motorcycleInfo.push(new Motorcycle("./img/honda-cb-twister.png", "Honda", "Cb Twister", "Moto naked de 250cc, monocilindro.", 249.5, 22.6, 2.28, "Gasolina e/ou Etanol", 16.5, 1.8, 6, 784, "", 139, "A ar", 25));
 motorcycleInfo.push(new Motorcycle("./img/kawasaki-versys-650.png", "Kawasaki", "Versys 650", "Moto Sport Touring de 649cc, Dois cilindros.", 649, 59.4, 6.5, "Gasolina e/ou Etanol", 19, 2.4, 6, 840, "", 205, "Líquida", 25));
 motorcycleInfo.push(new Motorcycle("./img/honda-adv-150.png", "Honda", "ADV 150", "Moto Scooter de 149cc, monocilindro.", 149.3, 13.2, 1.38, "Gasolina e/ou Etanol", 8, 0.9, "CVT", 795, "", 115, "A ar", 50.9));
-motorcycleInfo.push(new Motorcycle("./img/yamaha-r3.png", "Yamaha", "R3", "Moto Sport de 320cc, Dois Cilindros.", 320.6, 42.01, 3.02, "Gasolina e/ou Etanol", 14, 2.4, 6, 780, "", 180, "Líquida", 28));
+motorcycleInfo.push(new Motorcycle("./img/yamaha-r3.png", "Yamaha", "R3", "Moto Sport de 320cc, dois Cilindros.", 320.6, 42.01, 3.02, "Gasolina e/ou Etanol", 14, 2.4, 6, 780, "", 180, "Líquida", 28));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-r15.png", "Yamaha", "R15", "Moto Sport de 155cc, monocilindro.", 155, 18.8, 1.5, "Gasolina e/ou Etanol", 11, 0, 6, 815, "", 155, "Líquida", 45));
 motorcycleInfo.push(new Motorcycle("./img/yamaha-fz-15.png", "Yamaha", "FZ 15", "Moto Sport de 149cc, monocilindro.", 149.3, 12.4, 1.3, "Gasolina e/ou Etanol", 11.9, 0, 5, 790, "", 134, "Líquida", 37));
-motorcycleInfo.push(new Motorcycle("./img/yamaha-mt-07.png", "Yamaha", "MT 07", "Moto Naked de 689cc, monocilindro.", 689, 74.8, 6.9, "Gasolina e/ou Etanol", 14, 0, 6, 805, "", 230, "Líquida", 21.2));
+motorcycleInfo.push(new Motorcycle("./img/yamaha-mt-07.png", "Yamaha", "MT 07", "Moto Naked de 689cc, dois cilindros.", 689, 74.8, 6.9, "Gasolina e/ou Etanol", 14, 0, 6, 805, "", 230, "Líquida", 21.2));
+motorcycleInfo.push(new Motorcycle("./img/bmw-g-310-gs.png", "BMW", "G 310 GS", "Moto trail de 313cc, monocilindro.", 313, 34, 2.9, "Gasolina", 11.5, 1.65, 6, 835, "", 143, "Líquida", 35));
+
 
 motorcycleInfo.forEach(Motorcycle => {
     fillCard(Motorcycle);
