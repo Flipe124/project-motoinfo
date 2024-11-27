@@ -50,7 +50,9 @@ motorcycleInfo.push(new Motorcycle("./img/yamaha-fz-15.png", "Yamaha", "FZ 15", 
 motorcycleInfo.push(new Motorcycle("./img/yamaha-mt-07.png", "Yamaha", "MT 07", "Moto Naked de 689cc, dois cilindros.", 689, 74.8, 6.9, "Gasolina e/ou Etanol", 14, 0, 6, 805, "", 230, "Líquida", 21.2));
 motorcycleInfo.push(new Motorcycle("./img/bmw-g-310-gs.png", "BMW", "G 310 GS", "Moto trail de 313cc, monocilindro.", 313, 34, 2.9, "Gasolina", 11.5, 1.65, 6, 835, "", 143, "Líquida", 35));
 motorcycleInfo.push(new Motorcycle("./img/bmw-f-800-gs.png", "BMW", "F 800 GS", "Moto trail de 798cc, dois cilindros..", 798, 85, 8.5, "Gasolina", 16, 0, 6, 880, "", 200, "Líquida", 23.2));
-motorcycleInfo.push(new Motorcycle("./img/cf-moto-450-mt.png", "CFMOTO", "450MT", "Moto trail de 449cc, dois cilindros..", 449, 44, 4.48, "Gasolina", 17.5, 0, 6, 820, "", 170, "Líquida", 22));
+motorcycleInfo.push(new Motorcycle("./img/cf-moto-450-mt.png", "CFMOTO", "450MT", "Moto trail de 449cc, dois cilindros.", 449, 44, 4.48, "Gasolina", 17.5, 0, 6, 820, "", 170, "Líquida", 22));
+motorcycleInfo.push(new Motorcycle("./img/honda-cb-500-x.png", "Honda", "CB 500x", "Moto trail de 471cc, dois cilindros.", 471, 50.2, 4.54, "Gasolina", 17.7, 0, 6, 834, "", 180, "Líquida", 29));
+motorcycleInfo.push(new Motorcycle("./img/yamaha-mt-09.png", "Yamaha", "MT 09", "Moto naked de 890cc, três cilindros.", 890, 119, 9.5, "Gasolina", 14, 0, 6, 820, "", 230, "Líquida", 20));
 
 motorcycleInfo.forEach(Motorcycle => {
     fillCard(Motorcycle);
