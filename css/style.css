@@ -26,14 +26,14 @@ body::-webkit-scrollbar-thumb {
 header .apresentation {
     position: absolute;
     top: 30%;
-    left: 13%;
+    left: 11%;
 
     color: #fff;
-    background-color: rgb(240, 240, 240, 0.5);
+    background-color: #292929;
 
     border-radius: 8px;
     padding: 15px;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(1px);
 }
 
 header .apresentation span {
@@ -48,7 +48,7 @@ header .apresentation i {
 }
 
 header .apresentation p {
-    color: #595959;
+    color: #adadad;
     font-size: 15px;
     font-weight: 500;
     width: 300px;
@@ -173,10 +173,12 @@ a {
 @media screen and (width < 768px) {
     header .apresentation {
         position: relative;
-        top: 60px;
+        top: -160px;
         left: 30px;
 
         max-width: 60%;
+
+        background-color: rgb(41, 41, 41, 0.1);
     }
 
     header .apresentation span {
