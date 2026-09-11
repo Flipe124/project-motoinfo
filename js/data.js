@@ -53,6 +53,7 @@ motorcycleInfo.push(new Motorcycle("./img/bmw/bmw-f-800-gs.png", "BMW", "F 800 G
 motorcycleInfo.push(new Motorcycle("./img/cf-moto/cf-moto-450-mt.png", "CFMOTO", "450MT", "Moto trail de 449cc, dois cilindros.", 449, 44, 4.48, "Gasolina", 17.5, 0, 6, 820, "", 170, "Líquida", 22));
 motorcycleInfo.push(new Motorcycle("./img/honda/honda-cb-500-x.png", "Honda", "CB 500x", "Moto trail de 471cc, dois cilindros.", 471, 50.2, 4.54, "Gasolina", 17.7, 0, 6, 834, "", 180, "Líquida", 29));
 motorcycleInfo.push(new Motorcycle("./img/yamaha/yamaha-mt-09.png", "Yamaha", "MT 09", "Moto naked de 890cc, três cilindros.", 890, 119, 9.5, "Gasolina", 14, 0, 6, 820, "", 230, "Líquida", 20));
+motorcycleInfo.push(new Motorcycle("./img/yamaha/yamaha-mt-09.png", "Honda", "NX 500", "Crossover aventureira de 471cc com motor bicilíndrico.", 471, 49.6, 4.5, "Gasolina", 17.7, 3.1, 6, 834, 181, 180, "Líquida", 20));
 
 motorcycleInfo.forEach(Motorcycle => {
     fillCard(Motorcycle);
