@@ -55,7 +55,8 @@ motorcycleInfo.push(new Motorcycle("./img/honda/honda-cb-500-x.png", "Honda", "C
 motorcycleInfo.push(new Motorcycle("./img/yamaha/yamaha-mt-09.png", "Yamaha", "MT 09", "Moto naked de 890cc, três cilindros.", 890, 119, 9.5, "Gasolina", 14, 0, 6, 820, "", 230, "Líquida", 20));
 motorcycleInfo.push(new Motorcycle("./img/honda/honda-nx-500.png", "Honda", "NX 500", "Crossover aventureira de 471cc com motor bicilíndrico.", 471, 49.6, 4.5, "Gasolina", 17.7, 3.1, 6, 834, 181, 180, "Líquida", 29)); // VERIFICAR VALORES
 motorcycleInfo.push(new Motorcycle("./img/honda/honda-xl-700v-transalp.png", "Honda", "XL 700V Transalp", "Big trail versátil com motor V-Twin de 680cc.", 680, 60, 6.1, "Gasolina", 17.5, 2.9, 5, 841, 177, 170, "Líquida", 20)); // VERIFICAR VALORES
-motorcycleInfo.push(new Motorcycle("./img/ktm/ktm-390-adventure-x.png", "KTM", "390 Adventure X", "Trail aventureira ágil com motor monocilíndrico de 373cc.", 373, 44, 3.77, "Gasolina", 14.5, 1.7, 6, 855, 200, 160, "Líquida", 28));
+motorcycleInfo.push(new Motorcycle("./img/ktm/ktm-390-adventure-x.png", "KTM", "390 Adventure X", "Trail aventureira ágil com motor monocilíndrico de 373cc.", 373, 44, 3.77, "Gasolina", 14.5, 1.7, 6, 855, 200, 160, "Líquida", 28)); // VERIFICAR VALORES
+motorcycleInfo.push(new Motorcycle("./img/moto-morini/moto-morini-alltrhike-450-std.png", "Moto Morini", "Alltrhike 450", "Trail aventureira com motor bicilíndrico de 449cc e vocação off-road.", 449, 44.8, 4.3, "Gasolina", 18.7, 2.5, 6, 850, 220, 150, "Líquida", 20));
 
 motorcycleInfo.forEach(Motorcycle => {
     fillCard(Motorcycle);
